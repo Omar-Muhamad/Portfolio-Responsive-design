@@ -1,0 +1,87 @@
+/* reset styling */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styling */
+
+html,
+body {
+  font-family: 'Poppins';
+  color: #0b2f4e;
+  scroll-behavior: smooth;
+}
+
+::placeholder {
+  color: rgb(175, 175, 175);
+}
+
+
+/* contact section styling (mobile)*/
+
+.contact {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.form-image {
+  display: none;
+}
+
+.contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.form-header {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.input-fields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input-fields > input {
+  height: 4rem;
+}
+
+.username,
+.email,
+.message {
+  width: 100%;
+  border-radius: 2rem;
+  padding: 0 2rem;
+  font-size: 18px;
+  background-color: #eaeef2;
+  border: none;
+}
+
+.message {
+  padding-top: 1rem;
+  font-family: 'Poppins';
+}
+
+.submit-btn {
+  width: 100%;
+  height: 4rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #3a77ae;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
